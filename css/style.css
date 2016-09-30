@@ -1,1 +1,69 @@
 @import 'https://fonts.googleapis.com/css?family=Open+Sans';
+.container{
+
+	margin-top: 5%;
+	max-width: 600px;
+	max-height: 800px;
+	background-color: silver;
+	border-radius: 10px;
+	text-align: center;
+}
+.header{
+	padding: 20px;
+}
+.display{
+	color: black;
+	text-align: center;
+	margin: auto;
+	width:550px;
+	height: 100px;
+}
+.buttons{
+	padding: 10px;
+	min-width: 500px;
+	min-height: 700px;
+	display:flex;
+    display:inline-block;
+    background-color:white;
+ 	flex-wrap: wrap;
+
+}
+button{
+	justify-content:space-around;
+	width:130px;
+	height:80px;
+	background-color: silver;
+}
+
+.acce{
+
+}
+.bot{
+	display: flex;
+	display: inline-block;
+	flex-wrap:wrap;
+	max-width: 100%;
+	
+}
+.keypad{
+max-width:400px;
+text-align: auto;
+background-color: white;
+display: flex;
+display: inline-block;
+}
+
+.right{
+	max-width: 140px;
+	display: flex;
+	display: inline-block;
+	flex-wrap:wrap;
+	margin: auto;
+	background-color: white;
+	max-height: 400px;
+}
+
+.equal{
+	
+	flex-grow:2;
+}

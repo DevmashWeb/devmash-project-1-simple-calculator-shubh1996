@@ -5,7 +5,7 @@ var myVar = document.getElementsByClassName("display");
 myVar[0].onclick = function() { myVar[0].innerHTML= "Answer is " + 1;
 };
 
-var i=0 , none= 0 , oper = "plus", ntwo = 0 , myAns = none + ntwo ;
+var  none= 0 , oper = "plus", ntwo = 0 , myAns = none +oper+ ntwo ;
 var myBtn = document.getElementsByTagName("button");
 
 myBtn[0].onclick = function(){

@@ -1,19 +1,21 @@
 @import 'https://fonts.googleapis.com/css?family=Open+Sans';
-*{
+html{
+    background-color: black;
 }
 .container{
-
+    
 	margin-top: 5%;
 	width: 600px;
 	height: 83vh;
-	background-color: gray;
-	border-radius: 10px;
+	background-color:gold;
+    border-radius: 10px;
 	text-align: center;
 }
 .header{
 	padding: 20px;
 }
 .display{
+    border-radius: 60px;
 	background-color: ghostwhite;
 	text-align: center;
 	margin: auto;
@@ -22,6 +24,7 @@
 	margin-bottom: 20px; 
 }
 .buttons{
+    border-radius: 30px;
     padding: 10px;
 	min-width: 500px;
 	min-height: 50px;
@@ -33,14 +36,15 @@
 
 }
 button{
+    border-radius: 30px;
 	justify-content:space-around;
 	width:130px;
 	height:80px;
-	background-color: silver;
+	background-color:gray;
 }
 
 .ac{
-	background-color: blue;
+	background-color: lightskyblue;
 }
 .bot{
 	display: flex;
@@ -70,5 +74,6 @@ display: inline-block;
 
 #equal{
 	min-height: 170px;
+	background-color: crimson;
 	flex-grow:20;
 }

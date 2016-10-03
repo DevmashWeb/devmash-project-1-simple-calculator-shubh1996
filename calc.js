@@ -1,25 +1,42 @@
-    //  alert("Only to square two numbers :p");
-//var getNumber = getElementbyClass("acce");
 var myVar = document.getElementsByClassName("display");
-
 myVar[0].onclick = function() { myVar[0].innerHTML= "Answer is " + 1;
 };
 
-var  none= 0 , oper = "plus", ntwo = 0 , myAns = none +oper+ ntwo ;
-var myBtn = document.getElementsByTagName("button");
+var myAns = ""  ;
+
+
+var a = function (x){
+    myAns= myAns + x;
+    myVar[0].innerHTML=myAns;
+};
+
+var ac = function(){
+    myAns="";
+    myVar[0].innerHTML=myAns;
+};
+
+var ev=function(){
+   var resu;
+   resu = eval(myAns);
+    myVar[0].innerHTML=resu;
+    myAns="";
+};
+
+//tried this.
+/*{
+    var myBtn = document.getElementsByTagName("button");
 
 myBtn[0].onclick = function(){
     none=0; 
     ntwo=0;
-    oper="plus";
-    myAns=none+ntwo;
+    oper="";
+    myAns=none+oper+ntwo;
 };//ac
 myBtn[1].onclick = function(){
     none=0; 
     ntwo=0;
-    oper="plus";
-    myAns=none+ntwo;
-    
+    oper="";
+    myAns=none+oper+ntwo;
 };//ce
 myBtn[2].onclick = function(){
     oper="mod";
@@ -99,20 +116,18 @@ myBtn[17].onclick = function(){
 };//minus
 myBtn[18].onclick = function(){
        if(oper == "plus")
-       myAns=none + ntwo;
+       myAns= none + ntwo;
        else if(oper == "minus")
-       myAns=none - ntwo;
+       myAns= none - ntwo;
        else if(oper == "divide")
-       myAns=none/ntwo;
+       myAns= none/ntwo;
        else if(oper == "multiply")
-       myAns=none*ntwo;
+       myAns= none*ntwo;
        else if(oper == "mod")
-       myAns=none-(none/ntwo);
+       myAns= none-(none/ntwo);
        else{}
     myVar[0].innerHTML= myAns;
-    none=0;
-    ntwo=0;
-    oper="plus";
-    
+      
 };//equal
-//myVar[0].innerHTML= myAns;
+myVar[0].innerHTML= myAns;
+}*/
